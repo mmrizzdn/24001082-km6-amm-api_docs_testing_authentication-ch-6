@@ -1,3 +1,7 @@
+// BES2402KM6017
+// MUHAMMAD AMMAR IZZUDIN
+// BEJS
+
 const multer = require('multer');
 
 const generateFileFilter = (mimetypes) => {
