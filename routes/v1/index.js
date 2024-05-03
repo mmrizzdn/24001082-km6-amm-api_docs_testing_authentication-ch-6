@@ -15,7 +15,7 @@ const {
 
 const { gambar } = require('../../libs/multer');
 
-router.post('/images', gambar.single('file'), unggah);
+router.post('/images', gambar.array('file'), unggah);
 router.get('/images', lihatSemua);
 router.get('/images/:id', lihatDetail);
 router.delete('/images/:id', hapus);
