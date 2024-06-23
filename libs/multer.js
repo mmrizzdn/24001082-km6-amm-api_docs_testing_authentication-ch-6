@@ -30,7 +30,7 @@ module.exports = {
             'image/tiff'
         ]),
 
-        limits: { fileSize: maxSize },
+        // limits: { fileSize: maxSize },
 
         onError: (err, next) => {
             next(err);
